@@ -1,10 +1,11 @@
 import './App.css';
-import MuiTextField from './components/MuiTextField';
+import Selectt from './components/Selectt';
+import TextFieldd from './components/TextField';
 
 function App() {
   return (
     <div className="App">
-        <MuiTextField />
+        <Selectt />
     </div>
   );
 }
