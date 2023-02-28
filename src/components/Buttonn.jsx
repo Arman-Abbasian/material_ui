@@ -11,11 +11,8 @@ import FormatBoldIcons from "@mui/icons-material/FormatBold";
 import FormatItalicIcons from "@mui/icons-material/FormatItalic";
 
 const Butonn = () => {
-  const [formats, setFormats] = useState([]);
-  const handleChange = (e) => {
-    console.log(e)
-    setFormats(e)
-};
+  const [selectedBtn, setSelectedBtn] = useState([]);
+
   return (
     <Stack direction={"column"} spacing={2}>
       <Button variant="contained" href="https://www.google.com/">
@@ -67,22 +64,12 @@ const Butonn = () => {
 
       {/* toggle button */}
       <Stack>
-        <ToggleButtonGroup
-          aria-label="text-formatting"
-          value={formats}
-          onChange={handleChange}
-          size="small"
-          orientation="horizontal"
-          
-        >
-          <ToggleButton value='bold' aria-label='bold'>
-            <FormatBoldIcons />
-          </ToggleButton>
-          <ToggleButton value='italic' aria-label='italic'>
-            <FormatItalicIcons />
-          </ToggleButton>
-
-        </ToggleButtonGroup>
+      <div>
+      <ButtonGroup disableElevation variant="contained" color="primary">
+        <Button color={selectedBtn === 1 ? "secondary" : "primary"} onClick={()=>setSelectedBtn(1)}>One</Button>
+        <Button color={selectedBtn === 2 ? "secondary" : "primary"} onClick={()=>setSelectedBtn(2)}>Two</Button>
+      </ButtonGroup>
+    </div>
       </Stack>
     </Stack>
   );
