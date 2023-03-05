@@ -2,6 +2,7 @@ import './App.css';
 import AutoCompletee from './components/AutoCompletee';
 import Boxx from './components/Boxx';
 import Butonn from './components/Buttonn';
+import Cardd from './components/Cardd';
 import CheckBoxx from './components/CheckBoxx';
 import Gridd from './components/Gridd';
 import RadioButtonn from './components/RadioButton';
@@ -14,7 +15,7 @@ import Typographyy from './components/Typographyy';
 function App() {
   return (
     <div className="App">
-        <Gridd />
+        <Cardd />
     </div>
   );
 }
