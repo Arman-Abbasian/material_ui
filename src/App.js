@@ -1,5 +1,6 @@
 import './App.css';
 import AutoCompletee from './components/AutoCompletee';
+import Boxx from './components/Boxx';
 import Butonn from './components/Buttonn';
 import CheckBoxx from './components/CheckBoxx';
 import RadioButtonn from './components/RadioButton';
@@ -12,7 +13,7 @@ import Typographyy from './components/Typographyy';
 function App() {
   return (
     <div className="App">
-        <AutoCompletee />
+        <Boxx />
     </div>
   );
 }
