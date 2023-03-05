@@ -1,3 +1,4 @@
+import { Accordion } from '@mui/material';
 import './App.css';
 import AutoCompletee from './components/AutoCompletee';
 import Boxx from './components/Boxx';
@@ -11,11 +12,12 @@ import Selectt from './components/Selectt';
 import Switchh from './components/Switchh';
 import TextFieldd from './components/TextField';
 import Typographyy from './components/Typographyy';
+import Accordionn from './components/Accordionn';
 
 function App() {
   return (
     <div className="App">
-        <Cardd />
+        <Accordionn />
     </div>
   );
 }
