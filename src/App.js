@@ -1,4 +1,4 @@
-import { Accordion, ImageList } from '@mui/material';
+import { Accordion, ImageList, Menu } from '@mui/material';
 import './App.css';
 import AutoCompletee from './components/AutoCompletee';
 import Boxx from './components/Boxx';
@@ -15,11 +15,12 @@ import Typographyy from './components/Typographyy';
 import Accordionn from './components/Accordionn';
 import ImageListt from './components/ImageListt';
 import Navbarr from './components/Navbarr';
+import Menuu from './components/Menuu';
 
 function App() {
   return (
     <div className="App">
-        <Navbarr/>
+        <Menuu />
     </div>
   );
 }

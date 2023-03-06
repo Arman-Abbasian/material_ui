@@ -8,7 +8,9 @@ const Navbarr = () => {
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <CatchingPokemonIcon />
         </IconButton>
-        <Typography variant="h7" component="div" sx={{flexGrow:1}}>pokemon app</Typography>
+        <Typography variant="h7" component="div" sx={{ flexGrow: 1 }}>
+          pokemon app
+        </Typography>
         <Stack direction="row" spacing={2}>
           <Button size="small" color="inherit">
             Feature
