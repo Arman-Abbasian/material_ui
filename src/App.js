@@ -14,11 +14,12 @@ import TextFieldd from './components/TextField';
 import Typographyy from './components/Typographyy';
 import Accordionn from './components/Accordionn';
 import ImageListt from './components/ImageListt';
+import Navbarr from './components/Navbarr';
 
 function App() {
   return (
     <div className="App">
-        <ImageListt/>
+        <Navbarr/>
     </div>
   );
 }
