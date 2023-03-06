@@ -1,4 +1,4 @@
-import { Accordion } from '@mui/material';
+import { Accordion, ImageList } from '@mui/material';
 import './App.css';
 import AutoCompletee from './components/AutoCompletee';
 import Boxx from './components/Boxx';
@@ -13,11 +13,12 @@ import Switchh from './components/Switchh';
 import TextFieldd from './components/TextField';
 import Typographyy from './components/Typographyy';
 import Accordionn from './components/Accordionn';
+import ImageListt from './components/ImageListt';
 
 function App() {
   return (
     <div className="App">
-        <Accordionn />
+        <ImageListt/>
     </div>
   );
 }
